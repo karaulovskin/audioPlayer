@@ -11,7 +11,7 @@ import imagesLoaded from 'imagesloaded'
 window.imagesLoaded = imagesLoaded;
 
 // load modules
-
+import Player from'./js/player.js'
 
 // Run components
 
@@ -36,5 +36,5 @@ if (App.debug) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-
+    App.Player = new Player();
 });

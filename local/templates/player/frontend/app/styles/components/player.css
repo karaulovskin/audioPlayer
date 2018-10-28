@@ -1,0 +1,16 @@
+.player_timeline__progressbar_wrapper {
+    position: relative;
+    width: 200px;
+    height: 6px;
+    margin: 20px 0;
+    background-color: #ccc;
+}
+
+.player_timeline__progressbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--c-red);
+}
